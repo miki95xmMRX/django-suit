@@ -4,6 +4,13 @@ Changelog
 Only important changes are mentioned below. See `commit log <https://github.com/darklow/django-suit/commits/develop>`_, `closed issues <https://github.com/darklow/django-suit/issues?direction=desc&sort=updated&state=closed>`_ and `closed pull
 requests <https://github.com/darklow/django-suit/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aclosed>`_ for full changes.
 
+v0.2.26 (2018-02-24)
+--------------------
+
+* [Fix] Django 2.0 support.
+* [Fix] Minor fixes by PR.
+
+
 v0.2.25 (2017-03-30)
 --------------------
 
@@ -46,6 +53,12 @@ v0.2.19 (2016-06-23)
 --------------------
 
 * [Fix] Multiple fixes by Pull Requests
+
+
+v0.2.18 (2016-03-03)
+--------------------
+
+* [Fix] Django 1.9 time and date widgets fixes `#481 <https://github.com/darklow/django-suit/issues/481>`_
 
 
 v0.2.18 (2016-03-03)
