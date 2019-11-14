@@ -18,6 +18,13 @@
             run: run
         };
     }();
+    
+    Suit.after_inline.register('my_unique_func_name', function(inline_prefix, row){
+        // Your code here
+        $(row).find('select').select2();
+        console.info(inline_prefix);
+        console.info(row);
+    });
 
     // Backwards compatiblity
     SuitAfterInline = Suit.after_inline;
